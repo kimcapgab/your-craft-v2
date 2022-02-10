@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&display=swap");
+
+footer {
+  background-image: url("https://blessedbythelord.org/wp-content/uploads/2021/07/0e3863867_1416877594_wooden-header.jpg");
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Fredericka the Great";
+  bottom: 0;
+  padding: 10%;
+}
+
+#left-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 5vw;
+}
+
+.left-container-links {
+  margin-top: 2%;
+  text-decoration: none;
+  color: white;
+}
+
+.right-container-links {
+  text-decoration: none;
+  color: white;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+.footer-left-right,
+.footer-right-right {
+  display: flex;
+  flex-direction: column;
+}
+.footer-right {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-right: 5vw;
+}
+.footer-right > img {
+  width: 3vw;
+}
+.us {
+  font-size: 1.5em;
+}
+#left-container > img {
+  width: 3vw;
+}
+.footer-right-left {
+  text-align: center;
+}
+.footer-right-right {
+  width: 15vw;
+  font-size: 28px;
+}
+.sign-out:hover {
+  color: #7db6e9;
+  cursor: pointer;
+}
+#footer-vl {
+  height: 6em;
+}
+#sign-up-link {
+  margin-bottom: -10px;
+}
+@media (max-width: 1000px) {
+  #footer-vl {
+    height: 4em;
+  }
+  .left-container-links {
+    font-size: 0.8em;
+  }
+  footer {
+    padding-left: 3%;
+  }
+  .us {
+    font-size: 1em;
+  }
+  .footer-type {
+    font-size: 0.7em;
+  }
+  .footer-right-right {
+    font-size: 0.5em;
+  }
+}
+@media (max-width: 600px) {
+  #footer-vl {
+    height: 2em;
+  }
+  .left-container-links {
+    font-size: 0.5em;
+  }
+  footer {
+    padding-left: 2%;
+  }
+  .us {
+    font-size: 0.8em;
+  }
+  .footer-type {
+    font-size: 0.5em;
+  }
+  .footer-right-right {
+    font-size: 0.4em;
+  }
+}
+
+@media (max-width: 405px) {
+  .left-container-links {
+    font-size: 0.4em;
+  }
+  footer {
+    padding-left: 1%;
+  }
+  .us {
+    font-size: 0.6em;
+  }
+  .footer-type {
+    font-size: 0.4em;
+  }
+  .footer-right-right {
+    font-size: 0.3em;
+  }
+}

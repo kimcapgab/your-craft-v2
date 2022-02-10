@@ -1,0 +1,83 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+.intro-home-7 {
+  color: #f0ebd8;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.right-side-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page-image-container-7 {
+  display: flex;
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  /* background-size: cover; */
+  background-repeat: round;
+  background-image: url("https://res.cloudinary.com/dn2x2ldxj/image/upload/v1641486052/Project%203%20/be_Different_1_gml61d.png");
+  /* width: 89vw;
+  height: 28vw; */
+}
+
+.home-page-image-content-7 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* width: 89vw;
+  height: 28vw; */
+  transition: 0.5s ease;
+  opacity: 0;
+  padding: 4%;
+  justify-self: center;
+  text-align: center;
+}
+
+.home-page-image-container-7:hover .home-page-image-content-7 {
+  opacity: 1;
+}
+
+.home-parent {
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 1400px) {
+  .home-page-image-container-7 {
+    height: 780px;
+  }
+}
+@media (max-width: 1350px) {
+  .home-page-image-container-7 {
+    height: 600px;
+  }
+}
+@media (max-width: 1050px) {
+  .home-page-image-container-7 {
+    height: 500px;
+  }
+  .intro-home-7 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .home-page-image-container-7 {
+    height: 420px;
+  }
+}
+@media (max-width: 600px) {
+  .home-page-image-container-7 {
+    height: 350px;
+  }
+  .intro-home-7 {
+    font-size: 15px;
+  }
+}

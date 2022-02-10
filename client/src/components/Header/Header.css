@@ -1,0 +1,23 @@
+header {
+  height: 20vh;
+
+  background-color: #3e5c76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo-container {
+  display: flex;
+}
+
+#logo {
+  height: 100%;
+  width: 25vw;
+}
+@media (max-width: 500px) {
+  #logo {
+    height: 60vw;
+    width: 70vw;
+  }
+}

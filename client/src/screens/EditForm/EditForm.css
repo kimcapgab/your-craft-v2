@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&display=swap");
+
+#edit-form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 80vw;
+}
+
+#left-container-edit-form {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+#image-edit-preview {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+}
+
+#bev-edit-image {
+  margin: 0 auto;
+  margin-bottom: 3%;
+  height: 32vw;
+  width: 20vw;
+}
+
+#type-selector {
+  color: white;
+  text-align: center;
+  width: 80%;
+  align-self: center;
+  background-color: grey;
+  padding: 1%;
+}
+
+#image-edit-preview > input {
+  background-color: grey;
+  padding: 1%;
+}
+
+#bev-card-edit-container {
+  flex-grow: 2;
+  display: flex;
+  flex-flow: column;
+  background-color: #0d1321;
+}
+
+.bev-card-edit-item {
+  color: #f0ebd8;
+  border: hidden;
+  outline: none;
+
+  fill: none;
+  background: transparent;
+}
+
+.space-me {
+  margin: 2% 0 2% 0;
+}
+#description {
+  margin-bottom: 15%;
+}
+
+#right-title::placeholder {
+  text-align: center;
+}
+
+#right-edit-title {
+  text-align: center;
+  display: flex;
+  font-family: "Fredericka the Great";
+  font-size: 2em;
+  align-self: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#top-bev-edit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bottom-bev-edit-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-right-edit-input {
+  display: flex;
+
+  align-content: center;
+}
+
+.bottom-right-edit-input > p {
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: #f0ebd8;
+  font-family: "Fredericka the Great";
+  font-size: 1.75rem;
+}
+
+#save-edits {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5%;
+  border: none;
+  font-family: "Fredericka the Great";
+  color: #f0ebd8;
+  font-size: 2em;
+}
+
+.save-edits-submit {
+  margin: 2% 3% 0 3%;
+}
+#delete-edits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.bev-id-top-form-edit {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+input#description.bev-card-edit-item.space-me {
+  width: 75%;
+}
